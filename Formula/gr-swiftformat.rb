@@ -1,4 +1,4 @@
-class GRSwiftformat < Formula
+class GrSwiftformat < Formula
   desc "Formatting tool for reformatting Swift code"
   homepage "https://github.com/nicklockwood/SwiftFormat"
   url "https://github.com/nicklockwood/SwiftFormat/archive/0.46.3.tar.gz"
