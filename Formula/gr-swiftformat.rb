@@ -21,7 +21,7 @@ class GrSwiftformat < Formula
         "-scheme", "SwiftFormat (Command Line Tool)",
         "CODE_SIGN_IDENTITY=",
         "SYMROOT=build", "OBJROOT=build"
-    bin.install "build/Release/swiftformat"
+    bin.install "build/Release/gr-swiftformat"
   end
 
   test do
