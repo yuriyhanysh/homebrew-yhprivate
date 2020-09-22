@@ -21,7 +21,7 @@ class GrSwiftformat < Formula
         "-scheme", "SwiftFormat (Command Line Tool)",
         "CODE_SIGN_IDENTITY=",
         "SYMROOT=build", "OBJROOT=build"
-    bin.install "build/Release/gr-swiftformat"
+    bin.install "build/Release/swiftformat"
   end
 
   test do
@@ -30,6 +30,6 @@ class GrSwiftformat < Formula
         let baked: Bool
       }
     EOS
-    system "#{bin}/gr-swiftformat", "#{testpath}/potato.swift"
+    system "#{bin}/swiftformat", "#{testpath}/potato.swift"
   end
 end
